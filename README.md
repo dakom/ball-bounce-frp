@@ -4,7 +4,7 @@
 
 This demo uses FRP, specifically the Typescript implementation of [SodiumFRP](https://github.com/SodiumFRP/sodium-typescript), to create a bouncing ball effect. 
 
-It also uses [Pure3D](https://github.com/dakom/pure3d) to render it in 3D using physically-based-rendering
+Physically-based rendering is via [Pure3D](https://github.com/dakom/pure3d). 
 
 Camera is from [Jam3](https://github.com/Jam3/orbit-controls)
 
