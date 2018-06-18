@@ -6,7 +6,8 @@ This demo uses FRP, specifically the Typescript implementation of [SodiumFRP](ht
 
 Physically-based rendering is via [Pure3D](https://github.com/dakom/pure3d). 
 
-Camera is from [Jam3](https://github.com/Jam3/orbit-controls)
+Camera is from [Jam3](https://github.com/Jam3/orbit-controls).
+
 
 ## MECHANICS
 
@@ -48,3 +49,10 @@ Entire classes of bugs can be eliminated too. If all of this is new, I'd suggest
 Environment and Cube from Khronos references
 
 Metal sphere from [here](https://sketchfab.com/models/f7340c6b9dad4b88b84e097bcd53bcd8)
+
+## ADDITIONAL LIBS
+
+
+In addition to the libs mentioned above, this project uses [Sanctuary](https://sanctuary.js.org/), [Partial.Lenses](https://github.com/calmm-js/partial.lenses), and [Fluture](https://github.com/fluture-js/Fluture) for functional goodies.
+
+UI (in this case just the button) is with [React](https://reactjs.org/)
