@@ -7,7 +7,7 @@ This demo uses FRP, specifically SodiumFRP, to create a bouncing ball effect.
 Ball position is driven by a functional approach that works over continuous time, though time is "rasterized" (not sure the right word for this?) in a couple places:
 
 1. The impact time for starting a new bounce - limited by the JS clock 
-2. Core functions any time and are continuous in theory, but must be called at a certain frequency - in this case driven by requestAnimationFrame (e.g. 60fps or 120fps)
+2. Several core functions are continuous in theory, but the real world calls them at a certain frequency - in this case driven by requestAnimationFrame (e.g. 60fps or 120fps)
 
 One may ask - why FRP, surely an integration of delta times would work just as well?
 
