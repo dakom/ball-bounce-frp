@@ -21,7 +21,6 @@ The bulk of the logic is in these two files, with more details in the comments:
 
 2. [Time-FRP.ts](src/app/worker/frp/Time-FRP.ts)
 
-[*] Pun intended after-the-fact :P
 
 ## THREADS
 
@@ -38,6 +37,8 @@ The answer to this is "for sure!" - math is math and can be added up in numerous
 What FRP brings to the table is _elegance_. There's some terms around this space that are being popularized by frameworks like React - "declarative", "unidirectional flow", "separation of concerns", etc. - and those are real benefits to any project, especially at scale. 
 
 Entire classes of bugs can be eliminated too. If all of this is new, I'd suggest reading the book [Functional Reactive Programming](https://www.manning.com/books/functional-reactive-programming) for more info - it's a great introductory text that doesn't require a background in functional programming at all, in fact most examples are in Java. It's also the de-facto guide for SodiumFRP.
+
+[*] Pun intended after-the-fact :P
 
 ## MODELS
 
