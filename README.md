@@ -6,6 +6,8 @@ This demo uses FRP, specifically the Typescript implementation of [SodiumFRP](ht
 
 It also uses [Pure3D](https://github.com/dakom/pure3d) to render it in 3D using physically-based-rendering
 
+Camera is from [Jam3](https://github.com/Jam3/orbit-controls)
+
 ## MECHANICS
 
 Ball position is driven by a functional approach that works over continuous time, though time is "rasterized" (not sure the right word for this?) in a few places:
@@ -21,6 +23,7 @@ The bulk of the logic is in these two files, with more details in the comments:
 
 2. [Time-FRP.ts](src/app/worker/frp/Time-FRP.ts)
 
+Also, there's the math in [Kinematic.ts](src/app/utils/math/Kinematic.ts)
 
 ## THREADS
 
