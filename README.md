@@ -36,7 +36,7 @@ It also provides a nice sanity check since the GLTF / Scene data resides _only_ 
 
 One may ask - why FRP, surely an integration of delta times would work just as well?
 
-The answer to this is "for sure!" - math is math and can be added up in numerous ways[*]. 
+The answer to this is "for sure!" - math is math and can be added up in numerous[*] ways. 
 
 What FRP brings to the table is _elegance_. There's some terms around this space that are being popularized by frameworks like React - "declarative", "unidirectional flow", "separation of concerns", etc. - and those are real benefits to any project, especially at scale. 
 
