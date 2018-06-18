@@ -1,8 +1,12 @@
 [![Build Status](https://travis-ci.org/dakom/ball-bounce-frp.svg?branch=master)](https://travis-ci.org/dakom/ball-bounce-frp)
 
-## [DEMO](https://dakom.github.io/ball-bounce-frp)
+## [DEMO](https://ball-bounce-frp.netlify.com/)
 
-This demo uses FRP, specifically SodiumFRP, to create a bouncing ball effect.
+This demo uses FRP, specifically the Typescript implementation of [SodiumFRP](https://github.com/SodiumFRP/sodium-typescript), to create a bouncing ball effect. 
+
+It also uses [Pure3D](https://github.com/dakom/pure3d) to render it in 3D using physically-based-rendering
+
+## MECHANICS
 
 Ball position is driven by a functional approach that works over continuous time, though time is "rasterized" (not sure the right word for this?) in a few places:
 

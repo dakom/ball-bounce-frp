@@ -3,16 +3,17 @@ import * as React from "react";
 const style = {
     color: "#fff",
     fontFamily: "Verdana, Arial",
-    fontSize: "70px",
+    fontSize: "40px",
     width: "100%",
     cursor: "pointer",
     borderRadius: "15px",
     margin: "10px",
     padding: "5px",
-    textAlign: "center"
+    textAlign: "center",
+    border: "4px solid #fff"
 }
 
-const styleGreen = Object.assign({}, style, {backgroundColor: "green"}); 
+const styleGreen = Object.assign({}, style, {backgroundColor: "green" }); 
 const styleRed = Object.assign({}, style, {backgroundColor: "red"}); 
 
 
