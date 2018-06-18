@@ -1,0 +1,394 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        0.99041587114334106,
+        0.99041497707366943,
+        0.99899923801422119
+      ],
+      "min": [
+        -0.99041545391082764,
+        -0.99041604995727539,
+        -0.99899923801422119
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 23832,
+      "componentType": 5126,
+      "count": 1986,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11904,
+      "max": [
+        1985
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 47664,
+      "componentType": 5126,
+      "count": 51840,
+      "max": [
+        1.0016411542892456,
+        1.0016403198242188,
+        1.0052273273468018
+      ],
+      "min": [
+        -1.001640796661377,
+        -1.0016412734985352,
+        -1.0052273273468018
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 669744,
+      "componentType": 5126,
+      "count": 51840,
+      "max": [
+        0.99707061052322388,
+        0.99707067012786865,
+        0.99942249059677124
+      ],
+      "min": [
+        -0.9970705509185791,
+        -0.9970705509185791,
+        -0.99942272901535034
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 47616,
+      "componentType": 5125,
+      "count": 77760,
+      "max": [
+        51839
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3DMish (https://sketchfab.com/3dmish)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/f7340c6b9dad4b88b84e097bcd53bcd8",
+      "title": "Beautiful sphere"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 358656,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1291824,
+      "byteOffset": 358656,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1650480,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "3DM.GlassReal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.22088414632000003,
+          0.22088414632000003,
+          0.22088414632000003,
+          0.47389481709999998
+        ],
+        "metallicFactor": 0.1053734756,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "3DM.Gold",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.57758044040000001,
+          0.18447499449999999,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.12976371950000001
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sphere.001_3DM.Glass(Real)_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere_3DM.Gold_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ],
+      "scale": [0.003, 0.003, 0.003],
+      "translation": [0,2.5,0]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "90bed0915d0a451092885cf9940ddc3a.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        97.640449523925781,
+        0,
+        0,
+        0,
+        0,
+        -4.2679997750762357e-06,
+        -97.640449523925682,
+        0,
+        0,
+        97.640449523925682,
+        -4.2679997750762357e-06,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Sphere.001"
+    },
+    {
+      "mesh": 0,
+      "name": "Sphere.001_3DM.Glass(Real)_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -4.3711390063094768e-06,
+        -99.999999999999901,
+        0,
+        0,
+        99.999999999999901,
+        -4.3711390063094768e-06,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Sphere"
+    },
+    {
+      "mesh": 1,
+      "name": "Sphere_3DM.Gold_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        -29.086466012969506,
+        -5.5189043349432856,
+        -95.517122630955939,
+        0,
+        56.639311688885009,
+        79.467234770950611,
+        -21.839115578886229,
+        0,
+        77.110090100961997,
+        -60.452463121430632,
+        -19.988339280030054,
+        0,
+        407.62454223632812,
+        590.38623046875,
+        -100.54539489746094,
+        1
+      ],
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        -65.155830149266762,
+        -44.527139649298732,
+        -61.417030473735487,
+        0,
+        -32.401348759389705,
+        89.539572581065741,
+        -30.542086805773785,
+        0,
+        68.592053755664978,
+        -3.9617552879958372e-06,
+        -72.767634534187692,
+        0,
+        748.1131591796875,
+        534.36651611328125,
+        650.76397705078125,
+        1
+      ],
+      "name": "Camera"
+    },
+    {
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
