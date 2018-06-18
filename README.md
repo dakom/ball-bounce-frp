@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/dakom/ball-bounce-frp.svg?branch=master)](https://travis-ci.org/dakom/ball-bounce-frp)
 
-## [DEMO](https://ball-bounce-frp.netlify.com/)
+## [DEMO](https://ball-bounce-frp.netlify.com/) - _note: needs modern video card and browser like chrome_
 
 This demo uses FRP, specifically the Typescript implementation of [SodiumFRP](https://github.com/SodiumFRP/sodium-typescript), to create a bouncing ball effect. 
 
