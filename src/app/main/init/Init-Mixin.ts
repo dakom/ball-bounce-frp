@@ -111,7 +111,7 @@ export const addGltfExtensions = () => {
 
     return S.pipe([
         addIbl,
-        addLights
+        //addLights
     ])
     
 }
