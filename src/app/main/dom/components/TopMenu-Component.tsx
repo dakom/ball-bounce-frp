@@ -11,11 +11,8 @@ enum PHASE {
     BOUNCING
 }
 export class TopMenu extends React.Component<{}, State> {
+    readonly state:State = {phase: PHASE.WAITING}
 
-    constructor(props) {
-        super(props);
-        this.state = {phase: PHASE.WAITING}
-    }
     render() {
 
         return (

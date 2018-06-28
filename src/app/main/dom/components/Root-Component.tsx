@@ -14,11 +14,8 @@ interface State {
 
 export class Root extends React.Component<Props, State> {
     private unlistener:() => void;
-
-    constructor(props) {
-        super(props);
-        this.state = {isLoading: true}
-    }
+    
+    readonly state: State = { isLoading: true };
 
     componentDidMount() {
         this.unlistener = sLoadingFinished.listen(() => {
